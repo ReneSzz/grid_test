@@ -4,7 +4,9 @@
 --body-color: #CFD2CF;
 
 }
-
+p{ 
+  font-weight: 700;
+}
 input:focus {
 
     border-style: none;
@@ -20,12 +22,14 @@ body{
 }    
 
 h1{ 
-    color: white;
+    color: var(--main-color);
     font-size: 1.5rem;
 
 
 }
-
+.userName { 
+  font-size: 2rem;
+}
 .sidebarItems:hover{
     transition-duration: 30ms;
     transform: scale(1.1);
@@ -46,6 +50,7 @@ h1{
 
   .header { 
     display: flex;
+    justify-content: space-between;
     grid-column-start: 3;
     grid-column-end: 11;
    
@@ -120,6 +125,58 @@ h1{
     border-radius: 100%;
   }
 
-  .headerRight {
-    
+
+  .userStatus { 
+    display: flex;
+    align-items:center;
+    width: 100%;
+
+  }
+
+  .kenma:hover{ 
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+ .headerRight{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+margin-right: 3rem;
+
+ }
+  .headerRightTop {
+    display: flex;
+    margin-top: 1%;
+    justify-content: right;
+    align-items: center;
+    gap: 1rem;
+  }
+
+  .headerRightTop > *:hover{ 
+    transform: scale(1.05);
+    cursor: pointer;
+  }
+
+  .headerRightBottom  {
+  margin-right: 12px;
+  margin-bottom: 1rem;
+  }
+
+  button {
+    border-style: none;
+  background-color: var(--accent-color);
+  border-radius: 50px;
+    width: 7rem;
+    height: 3rem;
+  font-size: 1rem;
+  color: var(--main-color);
+  font-weight: 800;
+  margin-right: 4rem;
+  }
+
+  button:hover { 
+
+    cursor: pointer;
+   
   }
