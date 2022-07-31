@@ -111,9 +111,13 @@ h1{
 
   .headerLeft {
     display: flex;
+    flex-wrap: wrap;
     align-items:center;
     margin-left: 3%;
-    width: 50%;
+    width: 40%;
+  }
+  .kenma { 
+    border-radius: 100%;
   }
 
   .headerRight {
