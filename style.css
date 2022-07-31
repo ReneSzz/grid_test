@@ -78,15 +78,6 @@ h1{
     grid-column-end: 3;
   }
   
-  .content
-  {
-    background-color: var(--body-color);
-    grid-column-start: 3;
-    grid-column-end: 11;
-    grid-row-start: 2;
-    grid-row-end: 7;
-
-  }
 
  
   .dashboard {
@@ -192,4 +183,24 @@ margin-right: 3rem;
 
   button:active { 
     transform: scale(0.9);
+  }
+
+  .content
+  {
+    
+    background-color: var(--body-color);
+    grid-column-start: 3;
+    grid-column-end: 11;
+    grid-row-start: 2;
+    grid-row-end: 7;
+    display: grid;
+    grid-template-columns: repeat(8, 12%);
+    grid-template-rows: repeat(9, 33%);
+    gap: 8rem;
+  }
+
+
+  .card{
+    background-color: var(--main-color);
+    border: 5px solid #00A4BD;
   }
