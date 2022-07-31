@@ -194,13 +194,46 @@ margin-right: 3rem;
     grid-row-start: 2;
     grid-row-end: 7;
     display: grid;
-    grid-template-columns: repeat(8, 12%);
-    grid-template-rows: repeat(9, 33%);
-    gap: 8rem;
+    grid-template-columns: repeat(14, 1fr);
+    grid-template-rows: repeat(14, 1fr);
+    gap: 2rem;
+    
+    
   }
 
 
   .card{
     background-color: var(--main-color);
     border: 5px solid #00A4BD;
+   
+  }
+
+  .card1{
+   
+    grid-area: 2 / 2 / span 4 / span 4;
+    
+    
+  }
+
+  .card2 { 
+    grid-area: 2 / 6 / span 4 / span 4;
+
+  }
+
+
+  .card3 { 
+    grid-area: 6 / 2 / span 4 / span 4;
+  }
+
+  .card4 {
+    grid-area: 6 / 6/ span 4 / span 4;
+  }
+
+  .card5 { 
+
+    grid-area: 10 / 2 / span 4 / span 4;
+  }
+  
+  .card6 { 
+    grid-area: 10 / 6 / span 4 / span 4;
   }
