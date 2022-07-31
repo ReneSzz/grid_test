@@ -6,7 +6,7 @@
 user-select: none;
 }
 p{ 
-  font-weight: 700;
+  font-weight: 400;
 }
 input:focus {
 
@@ -217,49 +217,85 @@ margin-right: 3rem;
     border-bottom: none;
     border-radius: 4%;
     padding: 1rem;
+    margin-bottom: -20%;
+    margin-top: -7%;
    
   }
 
   .card:hover {
     cursor: pointer;
   }
+
+  .card > h2 {
+    margin-bottom: -3%;
+  }
   .card1{
    
-    grid-area: 2 / 2 / span 4 / span 4;
+    grid-area: 2 / 2 / span 2 / span 4;
     
     
   }
 
   .card2 { 
-    grid-area: 2 / 6 / span 4 / span 4;
+    grid-area: 2 / 6 / span 2 / span 4;
 
   }
 
 
   .card3 { 
-    grid-area: 6 / 2 / span 4 / span 4;
+    grid-area: 6 / 2 / span 2 / span 4;
   }
 
   .card4 {
-    grid-area: 6 / 6/ span 4 / span 4;
+    grid-area: 6 / 6/ span 2 / span 4;
   }
 
   .card5 { 
 
-    grid-area: 10 / 2 / span 4 / span 4;
+    grid-area: 10 / 2 / span 2 / span 4;
   }
   
   .card6 { 
-    grid-area: 10 / 6 / span 4 / span 4;
+    grid-area: 10 / 6 / span 2 / span 4;
   }
 
+ .announcementsTitle {
+  grid-area: 1 / 11 / span 6 / span 3;
+  margin-top:7%;
+  
+  margin-left: 1%;
+ }
   .announcements{
+    
     border-left: none;
-    grid-area: 2 / 11 / span 6 / span 3;
+    grid-area: 2 / 11 / span 5/ span 3;
   }
 
+  .announcmentContent {
+    /* padding-bottom: 4%; */
+    border: 1px inset gray;
+    border-top: none;
+    border-left: none;
+    border-right: none;
+
+  }
+  .announcements > h4 { 
+    /* margin-top: -2%; */
+    margin-bottom: -5%;
+
+  }
+  .announcements :last-child {
+    border-style: none;
+  }
+
+  .trendingTitle {
+    grid-area: 8 / 11 / span 6 / span 3;
+   
+  }
   .trending { 
     border-left: none;
     border-left: none;
-    grid-area: 8 / 11 / span 6 / span 3;
+    grid-area: 9 / 11 / span 3 / span 3;
+    
   }
+
