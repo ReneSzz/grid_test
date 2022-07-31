@@ -40,6 +40,9 @@ h1{
     cursor: pointer;
 
 }
+.sidebarItems > h1:active { 
+  transform: scale(0.9);
+}
 
 .container {
     display: grid;
@@ -137,6 +140,10 @@ h1{
     transform: scale(1.05);
     cursor: pointer;
   }
+  .kenma:active { 
+    transform: scale(0.9);
+  }
+
 
  .headerRight{
 display: flex;
@@ -157,7 +164,9 @@ margin-right: 3rem;
     transform: scale(1.05);
     cursor: pointer;
   }
-
+  .headerRightTop >  :active { 
+    transform: scale(0.9);
+  }
   .headerRightBottom  {
   margin-right: 12px;
   margin-bottom: 1rem;
@@ -179,4 +188,8 @@ margin-right: 3rem;
 
     cursor: pointer;
    
+  }
+
+  button:active { 
+    transform: scale(0.9);
   }
